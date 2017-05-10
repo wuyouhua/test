@@ -1,0 +1,68 @@
+.denglu {
+  background: url(../img/13.jpg) repeat-y top left;
+  width: 100%;
+  height: 11.38rem;
+  position: relative;
+  text-align: center;
+}
+.denglu b {
+  position: absolute;
+  left: 0.42rem;
+  top: 0.42rem;
+  font-size: 0.48rem;
+  font-weight: 100;
+  color: #FFFFFF;
+}
+.denglu h2 {
+  position: absolute;
+  left: 1.40rem;
+  top: 2.16rem;
+  font-size: 1.20rem;
+  width: 3.58rem;
+  color: #ffffff;
+}
+.denglu span {
+  position: absolute;
+  top: 3.78rem;
+  left: 2.24rem;
+  font-size: 0.34rem;
+  color: #FFFFFF;
+}
+.denglu input {
+  position: absolute;
+  top: 5.58rem;
+  left: 0.60rem;
+  width: 5.22rem;
+  height: 0.64rem;
+  border: none;
+  border-bottom: 2px solid #FFFFFF;
+  background-color: transparent;
+  font-size: 0.32rem;
+  text-align: center;
+}
+.denglu input::-webkit-input-placeholder,
+.denglu input textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+.denglu p {
+  position: absolute;
+  top: 8.54rem;
+  left: 50%;
+  margin-left: -0.7rem;
+  font-size: 0.30rem;
+  color: #FFF;
+}
+.denglu .imgBox {
+  width: 1.60rem;
+  height: 1.60rem;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  line-height: 1.20rem;
+  position: absolute;
+  top: 9.40rem;
+  left: 50%;
+  margin-left: -0.94rem;
+}
+.denglu .imgBox img {
+  margin-top: 0.51rem;
+}

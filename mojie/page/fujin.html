@@ -1,0 +1,32 @@
+<div class="fujin">
+	<header class="mui-bar mui-bar-nav">
+		<input class="input" value="更多物品物主等你来搜索">
+		<span class="iconfont icon-llhomesearch"></span>
+	</header>
+	<div class="mui-content">
+		<div id="slider" class="mui-slider">
+			<div id="sliderSegmentedControl" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+				<a class="mui-control-item" href="#item1mobile" ng-click="goPage('/home')">
+					专属
+				</a>
+				<a class="mui-control-item" href="#item2mobile" ng-click="goPage('/fujin')">
+					附近
+				</a>
+				<a class="mui-control-item" href="#item3mobile" ng-click="goPage('/qiujie')">
+					求借
+				</a>
+				<p>发布 +</p>
+			</div>
+		</div>
+	</div>	
+	<div class="goodlist">
+		<ul>
+			<li ng-repeat="i in liList9">
+				<img src="{{i.images[0].origin}}" />
+				<h4>{{i.name}}</h4>
+				<p>{{i.description}}</p>
+				<span>¥ {{i.price}}/天</span>
+			</li>
+		</ul>
+	</div>
+</div>

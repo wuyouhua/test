@@ -1,0 +1,92 @@
+{
+	"slides": [
+		{
+			"created": "2017-04-06 18:06:44",
+			"id": 36,
+			"thumbnail": "/store/thumbs/2017/0406/06180644yz7z.jpg",
+			"title": "5D4",
+			"url": "mojoy://type=1&id=2046"
+		}, {
+			"created": "2017-03-15 10:17:17",
+			"id": 35,
+			"thumbnail": "/store/thumbs/2017/0315/15101717qve5.jpg",
+			"title": "你拍我发",
+			"url": "http://mojoy.cc/store/slide/page3/"
+		}, {
+			"created": "2017-03-14 23:58:56",
+			"id": 34,
+			"thumbnail": "/store/thumbs/2017/0314/142358552oum.jpg",
+			"title": "导演",
+			"url": "http://mojoy.cc/store/slide/page2"
+		}, {
+			"created": "2017-03-14 23:58:45",
+			"id": 33,
+			"thumbnail": "/store/thumbs/2017/0406/06180221iytv.jpg",
+			"title": "psvr",
+			"url": "mojoy://type=1&id=2747"
+		}
+	],
+	"tags": [
+		{
+			"created": "2016-05-10 11:37:07",
+			"grayIcon": "/store/thumbs/2016/0511/11112452b6kw.png",
+			"icon": "/store/thumbs/2016/0511/111124510fu9.png",
+			"id": 7,
+			"name": "出行代步"
+		}, {
+			"created": "2016-05-10 11:36:39",
+			"grayIcon": "/store/thumbs/2016/0511/111125463b1y.png",
+			"icon": "/store/thumbs/2016/0511/11112546oqzr.png",
+			"id": 4,
+			"name": "户外远足"
+		}, {
+			"created": "2016-05-10 11:37:23",
+			"grayIcon": "/store/thumbs/2016/0511/111124215k4v.png",
+			"icon": "/store/thumbs/2016/0511/11112421lugt.png",
+			"id": 9,
+			"name": "电子数码"
+		}, {
+			"created": "2016-05-10 11:36:48",
+			"grayIcon": "/store/thumbs/2016/0511/11112521vwyq.png",
+			"icon": "/store/thumbs/2016/0511/11112521cwh5.png",
+			"id": 5,
+			"name": "阅读学习"
+		}, {
+			"created": "2016-05-10 11:36:58",
+			"grayIcon": "/store/thumbs/2016/0511/11112501a52j.png",
+			"icon": "/store/thumbs/2016/0511/11112501me4y.png",
+			"id": 6,
+			"name": "才艺技能"
+		}, {
+			"created": "2016-05-10 11:36:08",
+			"grayIcon": "/store/thumbs/2016/0511/111126254hnv.png",
+			"icon": "/store/thumbs/2016/0511/111126259sf5.png",
+			"id": 1,
+			"name": "运动健身"
+		}, {
+			"created": "2016-05-10 11:36:31",
+			"grayIcon": "/store/thumbs/2016/0511/11112600ewl7.png",
+			"icon": "/store/thumbs/2016/0511/11112600h3yy.png",
+			"id": 3,
+			"name": "休闲游戏"
+		}, {
+			"created": "2016-05-10 11:36:24",
+			"grayIcon": "/store/thumbs/2016/0511/111126122esb.png",
+			"icon": "/store/thumbs/2016/0511/11112612run5.png",
+			"id": 2,
+			"name": "精致生活"
+		}, {
+			"created": "2016-05-10 11:37:15",
+			"grayIcon": "/store/thumbs/2016/0511/111124420d1m.png",
+			"icon": "/store/thumbs/2016/0511/11112442oq0r.png",
+			"id": 8,
+			"name": "道具服装"
+		}, {
+			"created": "2016-05-10 11:37:31",
+			"grayIcon": "/store/thumbs/2016/0511/11112350eib4.png",
+			"icon": "/store/thumbs/2016/0511/11112350q0hs.png",
+			"id": 10,
+			"name": "卡类会员"
+		}
+	]
+}

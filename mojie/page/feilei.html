@@ -1,0 +1,182 @@
+<div class="big">
+	<header class="mui-bar mui-bar-nav">
+		<input class="input1" value="分类">
+		<span class="iconfont icon-llhomesearch"></span>
+	</header>
+	<div class="mui-content mui-row mui-fullscreen">
+		<div class="mui-col-xs-3">
+			<div id="segmentedControls" class="mui-segmented-control mui-segmented-control-inverted mui-segmented-control-vertical">
+				<ul class="ul1">
+					<li  ng-class="{'active':titleId==1}" ng-click='titleId=1'><p class="pbox" ng-init="titleId=1">{{liList[0].classification0.name}}</p></li>
+					<li  ng-class="{'active':titleId==2}" ng-click='titleId=2'><p class="pbox">{{liList[1].classification0.name}}</p></li>
+					<li  ng-class="{'active':titleId==3}" ng-click='titleId=3'><p class="pbox">{{liList[2].classification0.name}}</p></li>
+					<li  ng-class="{'active':titleId==4}" ng-click='titleId=4'><p class="pbox">{{liList[3].classification0.name}}</p></li>
+					<li  ng-class="{'active':titleId==5}" ng-click='titleId=5'><p class="pbox">{{liList[4].classification0.name}}</p></li>
+					<li  ng-class="{'active':titleId==6}" ng-click='titleId=6'><p class="pbox">{{liList[5].classification0.name}}</p></li>
+					<li  ng-class="{'active':titleId==7}" ng-click='titleId=7'><p class="pbox">{{liList[6].classification0.name}}</p></li>
+					<li  ng-class="{'active':titleId==8}" ng-click='titleId=8'><p class="pbox">{{liList[7].classification0.name}}</p></li>
+				</ul>
+			</div>
+		</div>
+		<div id="segmentedControlContents" class="mui-col-xs-9" style="border-left: 1px solid #c8c7cc;">
+			<div id="item1" class="mui-control-content mui-active" ng-show="titleId == 1" ng-init="titleId=1">
+				<div class="imgbox1">
+					<img src="http://www.mojoy.cc/store/banner/image/1.jpg">
+				</div>
+				<ul class="ul1">
+					<li ng-repeat="i in liListq">
+						<img src="{{i.icon}}">
+						<p>{{i.name}}</p>
+					</li>
+				</ul>
+				<div class="news11">
+					<h3>热门商品</h3>
+					<ul class="ul2">
+						<li ng-repeat="i in liList2">
+							<img src="{{i.images[0].origin}}" />
+							<h6>{{i.name}}</h6>
+							<p>{{i.description}}</p>
+							<span>¥{{i.price}} / 天</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="item2" class="mui-control-content" ng-show=" titleId == 2 ">
+				<div class="imgbox1">
+					<img src="http://www.mojoy.cc/store/banner/image/2.jpg">
+				</div>
+				<ul class="ul1">
+					<li ng-repeat="i in liListw">
+						<img src="{{i.icon}}">
+						<p>{{i.name}}</p>
+					</li>
+				</ul>
+				<div class="news11">
+					<h3>热门商品</h3>
+					<ul class="ul2">
+						<li ng-repeat="i in liList3">
+							<img src="{{i.images[0].origin}}" />
+							<h6>{{i.name}}</h6>
+							<p>{{i.description}}</p>
+							<span>¥{{i.price}} / 天</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="item3" class="mui-control-content" ng-show=" titleId == 3 " >
+				<div class="imgbox1">
+					<img src="http://www.mojoy.cc/store/banner/image/3.jpg">
+				</div>
+				<ul class="ul1">
+					<li ng-repeat="i in liListe">
+						<img src="{{i.icon}}">
+						<p>{{i.name}}</p>
+					</li>
+				</ul>
+				<div class="news11">
+					<h3>热门商品</h3>
+					<ul class="ul2">
+						<li ng-repeat="i in liList4">
+							<img src="{{i.images[0].origin}}" />
+							<h6>{{i.name}}</h6>
+							<p>{{i.description}}</p>
+							<span>¥{{i.price}} / 天</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="item4" class="mui-control-content" ng-show=" titleId == 4 " >
+				<div class="imgbox1">
+					<img src="http://www.mojoy.cc/store/banner/image/4.jpg">
+				</div>
+				<ul class="ul1">
+					<li ng-repeat="i in liListr">
+						<img src="{{i.icon}}">
+						<p>{{i.name}}</p>
+					</li>
+				</ul>
+				<div class="news11">
+					<h3>热门商品</h3>
+					<ul class="ul2">
+						<li ng-repeat="i in liList5">
+							<img src="{{i.images[0].origin}}" />
+							<h6>{{i.name}}</h6>
+							<p>{{i.description}}</p>
+							<span>¥{{i.price}} / 天</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div id="item5" class="mui-control-content" ng-show=" titleId == 5 " >
+				<div class="imgbox1">
+					<img src="http://www.mojoy.cc/store/banner/image/5.jpg">
+				</div>
+				<ul class="ul1">
+					<li ng-repeat="i in liListt">
+						<img src="{{i.icon}}">
+						<p>{{i.name}}</p>
+					</li>
+				</ul>
+				<div class="news11">
+					<h3>热门商品</h3>
+					<ul class="ul2">
+						<li ng-repeat="i in liList6">
+							<img src="{{i.images[0].origin}}" />
+							<h6>{{i.name}}</h6>
+							<p>{{i.description}}</p>
+							<span>¥{{i.price}} / 天</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div id="item6" class="mui-control-content" ng-show=" titleId == 6 " >
+				<div class="imgbox1">
+					<img src="http://www.mojoy.cc/store/banner/image/6.jpg">
+				</div>
+				<ul class="ul1">
+					<li ng-repeat="i in liListy">
+						<img src="{{i.icon}}">
+						<p>{{i.name}}</p>
+					</li>
+				</ul>
+				<div class="news11">
+					<h3>热门商品</h3>
+					<ul class="ul2">
+						<li ng-repeat="i in liList7">
+							<img src="{{i.images[0].origin}}" />
+							<h6>{{i.name}}</h6>
+							<p>{{i.description}}</p>
+							<span>¥{{i.price}} / 天</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div id="item7" class="mui-control-content" ng-show=" titleId == 7 " >
+				<div class="imgbox1">
+					<img src="http://www.mojoy.cc/store/banner/image/7.jpg">
+				</div>
+				<ul class="ul1">
+					<li ng-repeat="i in liListu">
+						<img src="{{i.icon}}">
+						<p>{{i.name}}</p>
+					</li>
+				</ul>
+				<div class="news11">
+					<h3>热门商品</h3>
+					<ul class="ul2">
+						<li ng-repeat="i in liList8">
+							<img src="{{i.images[0].origin}}" />
+							<h6>{{i.name}}</h6>
+							<p>{{i.description}}</p>
+							<span>¥{{i.price}} / 天</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>

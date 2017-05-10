@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_j9kxb6kejk3p7gb9.eot');
+  src: url('//at.alicdn.com/t/font_j9kxb6kejk3p7gb9.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_j9kxb6kejk3p7gb9.woff') format('woff'), url('//at.alicdn.com/t/font_j9kxb6kejk3p7gb9.ttf') format('truetype'), url('//at.alicdn.com/t/font_j9kxb6kejk3p7gb9.svg#iconfont') format('svg');
+  
+  /* project id 269696 */
+}
+header {
+  position: relative;
+}
+header.mui-bar-nav {
+  height: 60px;
+  background-color: #31313b;
+  color: #fff;
+  line-height: 60px;
+}
+header.mui-bar-nav span {
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 15px;
+}
+header.mui-bar-nav .mui-icon-bars {
+  font-size: 22px;
+}
+header.mui-bar-nav i {
+  position: absolute;
+  color: #fff;
+  font-size: 22px;
+}
+header.mui-bar-nav i.icon-lingdang {
+  right: 20%;
+}
+header.mui-bar-nav i.icon-shop {
+  right: 6%;
+}
+div.mui-content {
+  padding-top: 60px !important;
+}
+div.mui-content .mui-slider .mui-slider-group {
+  margin-top: 50px;
+}
+div.mui-content .mui-slider .mui-slider-group .mui-slider-item {
+  border: 0 none !important;
+}
+div.mui-content .mui-slider .mui-slider-group .mui-slider-item .mui-card .mui-card-header i {
+  color: #f9e285;
+  font-size: 16px;
+}
+div.mui-content .mui-slider .mui-slider-group .mui-slider-item .mui-card .mui-card-header a {
+  position: absolute;
+  left: 12%;
+  height: 41px;
+  display: block;
+  color: #747474;
+  font: 12px/41px "微软雅黑";
+}
+div.mui-content .mui-slider .mui-slider-group .mui-slider-item .mui-card .card-footer {
+  padding: 12px;
+  box-sizing: border-box;
+}
+div.mui-content .mui-slider .mui-slider-group .mui-slider-item .mui-card .card-footer a {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  color: #000;
+  font-family: "微软雅黑";
+}
+div.mui-content .mui-slider .mui-slider-group .mui-slider-item .mui-card .card-footer p {
+  font: 12px/28px "微软雅黑";
+}
+div .mui-slider-indicator {
+  background-color: #31313b;
+  position: fixed !important;
+  z-index: 2;
+  height: 50px;
+}
+div .mui-slider-indicator .mui-control-item {
+  font: 13px/50px "微软雅黑";
+  color: #fff !important;
+  border-color: #31313b !important;
+}
+div .mui-slider-progress-bar {
+  position: fixed;
+  margin-top: 48px;
+  height: 3px;
+  background-color: #fff !important;
+  z-index: 66;
+}

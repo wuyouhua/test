@@ -1,0 +1,136 @@
+.qiujie .mui-bar-nav {
+  width: 100%;
+  height: 1.32rem!important;
+  line-height: 1.32rem;
+  background-color: e4e4e3;
+  text-align: center;
+  position: relative;
+}
+.qiujie .mui-bar-nav .input {
+  border-radius: 8px;
+  width: 6.02rem;
+  height: 0.76rem;
+  position: relative;
+  border: none;
+  font: 0.3rem/0.76rem "微软雅黑";
+  padding-left: 0.90rem ;
+  color: #606060;
+  background-color: #efefef;
+}
+.qiujie .mui-bar-nav .icon-llhomesearch {
+  position: absolute;
+  top: -0.08rem;
+  left: 0.46rem;
+  font-size: 0.46rem;
+}
+.qiujie .mui-bar-nav ~ .mui-content {
+  position: relative;
+  top: -0.11rem;
+  width: 100%;
+  height: 0.70rem !important;
+  padding-top: 0.20rem !important;
+  margin-top: 0.20rem;
+  padding: 0 !important;
+}
+.qiujie .mui-bar-nav ~ .mui-content #slider {
+  height: 100%;
+  width: 100%;
+}
+.qiujie .mui-bar-nav ~ .mui-content #slider .mui-segmented-control {
+  text-align: left;
+  margin-left: 0.18rem;
+}
+.qiujie .mui-bar-nav ~ .mui-content #slider .mui-segmented-control .mui-control-item {
+  display: inline-block;
+  width: 0.9rem !important;
+  font-size: 0.26rem;
+  margin-top: 0.20rem;
+}
+.qiujie .mui-bar-nav ~ .mui-content #slider .mui-segmented-control p {
+  float: right;
+  margin-right: 24px;
+  font-size: 0.26rem;
+  color: #62c9ce;
+  margin-top: 0.32rem;
+}
+.qiujie .box ul li {
+  position: relative;
+  width: 100%;
+  height: 4.30rem;
+  background-color: #FFFFFF;
+  margin-top: 0.14rem;
+}
+.qiujie .box ul li .touxiang {
+  width: 0.24rem;
+  height: 0.24rem;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 0.24rem;
+  background-color: #1ac7ce;
+  position: absolute;
+  top: 0.42rem;
+  left: 0.42rem;
+}
+.qiujie .box ul li h3 {
+  color: #626364;
+  font-size: 0.26rem;
+  position: absolute;
+  top: 0.30rem;
+  left: 1.09rem;
+  font-weight: normal;
+}
+.qiujie .box ul li .span1 {
+  position: absolute;
+  top: 0.58rem;
+  left: 1.09rem;
+}
+.qiujie .box ul li h4 {
+  position: absolute;
+  top: 1.26rem;
+  left: 0.20rem;
+  font-size: 0.32rem;
+}
+.qiujie .box ul li p {
+  font-size: rem;
+  position: absolute;
+  top: 1.72rem;
+  left: 0.20rem;
+  font-size: 0.28rem;
+  line-height: 0.36rem;
+}
+.qiujie .box ul li .span2 {
+  position: absolute;
+  top: 2.70rem;
+  left: 0.20rem;
+  font-size: 0.24rem;
+  color: #717173;
+}
+.qiujie .box ul li .icon-shijian {
+  position: absolute;
+  left: 0.20rem;
+  top: 3.12rem;
+  font-size: 0.22rem;
+  color: #b7b7b7;
+}
+.qiujie .box ul li .icon-shijian a {
+  font-size: 0.22rem;
+  color: #b7b7b7;
+}
+.qiujie .box ul li .icon-dizhi {
+  position: absolute;
+  left: 0.20rem;
+  top: 3.52rem;
+  font-size: 0.22rem;
+  color: #1cc7d0;
+}
+.qiujie .box ul li .icon-dizhi a {
+  font-size: 0.22rem;
+  color: #b7b7b7;
+}
+.qiujie .box ul li .p1 {
+  font-size: 0.32rem;
+  position: absolute;
+  top: 3.82rem;
+  left: 2.66rem;
+  color: #64d9df;
+}

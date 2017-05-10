@@ -1,0 +1,39 @@
+<div class="qiujie">
+	<header class="mui-bar mui-bar-nav">
+		<input class="input" value="更多物品物主等你来搜索">
+		<span class="iconfont icon-llhomesearch"></span>
+	</header>
+	<div class="mui-content">
+		<div id="slider" class="mui-slider">
+			<div id="sliderSegmentedControl" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+				<a class="mui-control-item" href="#item1mobile" ng-click="goPage('/home')">
+					专属
+				</a>
+				<a class="mui-control-item" href="#item2mobile" ng-click="goPage('/fujin')">
+					附近
+				</a>
+				<a class="mui-control-item" href="#item3mobile" ng-click="goPage('/qiujie')">
+					求借
+				</a>
+				<p>发布 +</p>
+			</div>
+		</div>
+	</div>	
+	<div class="box">
+		<ul>
+			<li ng-repeat="i in liList10">
+				<div class="touxiang">
+					<span>+</span>
+				</div>
+				<h3>发布者名字</h3>
+				<span class="span1">{{i.created}}</span>
+				<h4>{{i.name}}</h4>
+				<p>{{i.description}}</p>
+				<span class="span2">{{i.phone}}</span>
+				<span class="iconfont icon-shijian"><a href="javascript:;">想借{{i.times}}天</a></span>
+				<span class="iconfont icon-dizhi"><a href="javascript:;">想借{{i.address}}天</a></span>
+				<p class="p1">我借你</p>
+			</li>
+		</ul>
+	</div>
+</div>

@@ -1,0 +1,587 @@
+{
+	"code": 0,
+	"data": {
+		"content": [
+			{
+				"active": 0,
+				"address": "北京市蓝天嘉园",
+				"approveStatus": 0,
+				"box": 1,
+				"commentCount": 0,
+				"created": "2016-07-15 14:30:55",
+				"deleted": 0,
+				"deposit": 2000,
+				"description": "大龟王电动摩低价转了需要的同学赶紧来取吧，大龟王电动摩低价转了需要的同学赶紧来取 48v 电池刚换了3个月 工作调动 每天有班车接送 电动车也用不上了",
+				"favor": false,
+				"favors": 1,
+				"id": 418,
+				"images": [
+					{
+						"created": 1468564255000,
+						"height": 720,
+						"id": 318,
+						"origin": "/store/origin/2016/0715/15143055clzx.jpg",
+						"preview": "/store/thumbs/2016/0715/15143055v6t5.jpg",
+						"targetId": 418,
+						"width": 960
+					}, {
+						"created": 1468564255000,
+						"height": 720,
+						"id": 319,
+						"origin": "/store/origin/2016/0715/15143055vg39.jpg",
+						"preview": "/store/thumbs/2016/0715/15143055tk5q.jpg",
+						"targetId": 418,
+						"width": 960
+					}
+				],
+				"keyList": [],
+				"lat": 39.9573,
+				"leaseCount": 0,
+				"lendMode": 0,
+				"lon": 116.373,
+				"name": "大龟王电动摩低价转了需要的同学赶紧来取吧，大龟王电动摩低价转了需要的同学赶紧来取 48v 电池刚换了3个月 工作调动 每天有班车接送 电动车也用不上了",
+				"price": 100,
+				"priceMode": 2,
+				"quantity": 1,
+				"remain": 1,
+				"status": 0,
+				"tags": [
+					{
+						"created": "2016-05-10 11:37:23",
+						"grayIcon": "/store/thumbs/2016/0511/111124215k4v.png",
+						"icon": "/store/thumbs/2016/0511/11112421lugt.png",
+						"id": 9,
+						"name": "电子数码"
+					}
+				],
+				"user": {
+					"avatar": "/store/ava/237/0/0/0.jpg?t=1468563045000",
+					"avatar80": "/store/ava/237/0/0/80.jpg?t=1468563045000",
+					"birthday": "1990-01-01",
+					"borrowScale": 0,
+					"borrowScaleAVG": 5,
+					"borrowTimes": 0,
+					"city": "",
+					"cityId": 0,
+					"created": "2016-07-15 14:10:45",
+					"gender": 1,
+					"id": 237,
+					"invite": 0,
+					"lat": 0,
+					"lendScale": 0,
+					"lendScaleAVG": 5,
+					"lendTimes": 0,
+					"lon": 0,
+					"mobile": "13269592860",
+					"nickname": "影视圈联盟",
+					"platform": 0,
+					"signature": "",
+					"status": 0,
+					"studentStatus": 0,
+					"updated": "2016-07-15 14:10:45",
+					"zhimaStatus": 0
+				},
+				"weight": 0
+			}, {
+				"active": 0,
+				"address": "北京科技大学-学生公寓8斋北京市海淀区学院路30号",
+				"approveStatus": 0,
+				"box": 1,
+				"commentCount": 0,
+				"created": "2016-08-03 19:16:59",
+				"deleted": 0,
+				"deposit": 100,
+				"description": "十分好骑",
+				"favor": false,
+				"favors": 1,
+				"id": 1435,
+				"images": [
+					{
+						"created": 1470223019000,
+						"height": 692,
+						"id": 1832,
+						"origin": "/store/origin/2016/0803/03191658urpf.jpg",
+						"preview": "/store/thumbs/2016/0803/03191658zgdb.jpg",
+						"targetId": 1435,
+						"width": 1080
+					}, {
+						"created": 1470223019000,
+						"height": 529,
+						"id": 1833,
+						"origin": "/store/origin/2016/0803/03191658ruvw.jpg",
+						"preview": "/store/thumbs/2016/0803/03191658xyaw.jpg",
+						"targetId": 1435,
+						"width": 1080
+					}, {
+						"created": 1470223019000,
+						"height": 306,
+						"id": 1834,
+						"origin": "/store/origin/2016/0803/031916585p4k.jpg",
+						"preview": "/store/thumbs/2016/0803/031916587hox.jpg",
+						"targetId": 1435,
+						"width": 408
+					}
+				],
+				"keyList": [],
+				"lat": 39.995,
+				"leaseCount": 1,
+				"lendMode": 0,
+				"lon": 116.371,
+				"name": "自行车26｜男女通用",
+				"price": 1,
+				"priceMode": 2,
+				"quantity": 1,
+				"remain": 1,
+				"status": 1,
+				"tags": [
+					{
+						"created": "2016-05-10 11:36:39",
+						"grayIcon": "/store/thumbs/2016/0511/111125463b1y.png",
+						"icon": "/store/thumbs/2016/0511/11112546oqzr.png",
+						"id": 4,
+						"name": "户外远足"
+					}, {
+						"created": "2016-05-10 11:37:07",
+						"grayIcon": "/store/thumbs/2016/0511/11112452b6kw.png",
+						"icon": "/store/thumbs/2016/0511/111124510fu9.png",
+						"id": 7,
+						"name": "出行代步"
+					}
+				],
+				"user": {
+					"avatar": "/store/ava/69/0/0/0.jpg?t=1470137975000",
+					"avatar80": "/store/ava/69/0/0/80.jpg?t=1470137975000",
+					"birthday": "1990-01-01",
+					"borrowScale": 10,
+					"borrowScaleAVG": 5,
+					"borrowTimes": 2,
+					"city": "",
+					"cityId": 0,
+					"created": "2016-07-09 12:21:32",
+					"gender": 2,
+					"id": 69,
+					"invite": 0,
+					"lat": 0,
+					"lendScale": 0,
+					"lendScaleAVG": 5,
+					"lendTimes": 0,
+					"lon": 0,
+					"mobile": "13164236546",
+					"nickname": "Asuna",
+					"platform": 0,
+					"schoolName": "北京科技大学",
+					"signature": "",
+					"status": 0,
+					"studentStatus": 1,
+					"updated": "2016-08-02 19:39:35",
+					"zhimaStatus": 0
+				},
+				"weight": 0
+			}, {
+				"active": 0,
+				"address": "学院路29号中国地质大学中国地质大学女生宿舍",
+				"approveStatus": 0,
+				"box": 1,
+				"commentCount": 0,
+				"created": "2016-10-03 18:38:48",
+				"deleted": 0,
+				"deposit": 200,
+				"description": "26寸山地自行车，只接受日租，早八晚十",
+				"favor": false,
+				"favors": 3,
+				"id": 1883,
+				"images": [
+					{
+						"created": 1475491128000,
+						"height": 718,
+						"id": 3284,
+						"origin": "/store/origin/2016/1003/03183848468o.jpg",
+						"preview": "/store/thumbs/2016/1003/03183848atzn.jpg",
+						"targetId": 1883,
+						"width": 1280
+					}
+				],
+				"keyList": [],
+				"lat": 39.9985,
+				"leaseCount": 0,
+				"lendMode": 0,
+				"lon": 116.354,
+				"name": "26山地自行车",
+				"price": 12,
+				"priceMode": 2,
+				"quantity": 1,
+				"remain": 1,
+				"status": 0,
+				"tags": [
+					{
+						"created": "2016-05-10 11:36:08",
+						"grayIcon": "/store/thumbs/2016/0511/111126254hnv.png",
+						"icon": "/store/thumbs/2016/0511/111126259sf5.png",
+						"id": 1,
+						"name": "运动健身"
+					}, {
+						"created": "2016-05-10 11:36:39",
+						"grayIcon": "/store/thumbs/2016/0511/111125463b1y.png",
+						"icon": "/store/thumbs/2016/0511/11112546oqzr.png",
+						"id": 4,
+						"name": "户外远足"
+					}, {
+						"created": "2016-05-10 11:37:07",
+						"grayIcon": "/store/thumbs/2016/0511/11112452b6kw.png",
+						"icon": "/store/thumbs/2016/0511/111124510fu9.png",
+						"id": 7,
+						"name": "出行代步"
+					}
+				],
+				"user": {
+					"avatar": "/store/ava/617/2/0/0.jpg?t=1475490667000",
+					"avatar80": "/store/ava/617/2/0/80.jpg?t=1475490667000",
+					"birthday": "1990-01-01",
+					"borrowScale": 0,
+					"borrowScaleAVG": 5,
+					"borrowTimes": 0,
+					"city": "",
+					"cityId": 0,
+					"created": "2016-10-03 18:31:07",
+					"gender": 1,
+					"id": 2611,
+					"invite": 0,
+					"lat": 0,
+					"lendScale": 0,
+					"lendScaleAVG": 5,
+					"lendTimes": 0,
+					"lon": 0,
+					"mobile": "13312193520",
+					"nickname": "萌哒哒的霸气",
+					"platform": 0,
+					"signature": "",
+					"status": 0,
+					"studentStatus": 0,
+					"updated": "2016-10-03 18:31:07",
+					"zhimaStatus": 0
+				},
+				"weight": 0
+			}, {
+				"active": 0,
+				"address": "白云路路口以西100米，首都博物馆西行200米木樨地北里",
+				"approveStatus": 0,
+				"box": 0,
+				"commentCount": 0,
+				"created": "2016-10-20 23:08:37",
+				"deleted": 0,
+				"deposit": 800,
+				"description": "捷安特atx 750",
+				"favor": false,
+				"favors": 0,
+				"id": 2015,
+				"images": [
+					{
+						"created": 1476976117000,
+						"height": 3024,
+						"id": 3550,
+						"origin": "/store/origin/2016/1020/20230836mq28.jpg",
+						"preview": "/store/thumbs/2016/1020/20230836k2vr.jpg",
+						"targetId": 2015,
+						"width": 4032
+					}
+				],
+				"keyList": [
+					"自行车"
+				],
+				"lat": 39.9089,
+				"leaseCount": 0,
+				"lendMode": 0,
+				"lon": 116.347,
+				"name": "捷安特",
+				"price": 30,
+				"priceMode": 3,
+				"quantity": 1,
+				"remain": 1,
+				"searchKey": "自行车",
+				"status": 0,
+				"tags": [
+					{
+						"created": "2016-05-10 11:37:07",
+						"grayIcon": "/store/thumbs/2016/0511/11112452b6kw.png",
+						"icon": "/store/thumbs/2016/0511/111124510fu9.png",
+						"id": 7,
+						"name": "出行代步"
+					}
+				],
+				"user": {
+					"avatar": "/store/ava/868/2/0/0.jpg?t=1475992148000",
+					"avatar80": "/store/ava/868/2/0/80.jpg?t=1475992148000",
+					"birthday": "1990-01-01",
+					"borrowScale": 0,
+					"borrowScaleAVG": 5,
+					"borrowTimes": 0,
+					"city": "",
+					"cityId": 0,
+					"created": "2016-10-09 13:49:08",
+					"gender": 1,
+					"id": 2862,
+					"invite": 0,
+					"lat": 0,
+					"lendScale": 0,
+					"lendScaleAVG": 5,
+					"lendTimes": 0,
+					"lon": 0,
+					"mobile": "",
+					"nickname": "小新一‮‭",
+					"platform": 0,
+					"signature": "",
+					"status": 0,
+					"studentStatus": 0,
+					"updated": "2016-10-09 13:49:08",
+					"zhimaStatus": 0
+				},
+				"weight": 0
+			}, {
+				"active": 0,
+				"address": "(null)北航致真大厦",
+				"approveStatus": 0,
+				"box": 0,
+				"commentCount": 0,
+				"created": "2016-08-02 00:23:56",
+				"deleted": 0,
+				"deposit": 800,
+				"description": "轻快，好骑",
+				"favor": false,
+				"favors": 0,
+				"id": 1416,
+				"images": [
+					{
+						"created": 1470068636000,
+						"height": 1280,
+						"id": 1763,
+						"origin": "/store/origin/2016/0802/02002356y3il.jpg",
+						"preview": "/store/thumbs/2016/0802/02002356td85.jpg",
+						"targetId": 1416,
+						"width": 720
+					}, {
+						"created": 1470068636000,
+						"height": 1280,
+						"id": 1764,
+						"origin": "/store/origin/2016/0802/02002356zbxg.jpg",
+						"preview": "/store/thumbs/2016/0802/02002356l8n3.jpg",
+						"targetId": 1416,
+						"width": 720
+					}, {
+						"created": 1470068636000,
+						"height": 1280,
+						"id": 1765,
+						"origin": "/store/origin/2016/0802/02002356h9dd.jpg",
+						"preview": "/store/thumbs/2016/0802/02002356rna4.jpg",
+						"targetId": 1416,
+						"width": 720
+					}, {
+						"created": 1470068636000,
+						"height": 1280,
+						"id": 1766,
+						"origin": "/store/origin/2016/0802/02002356vwfj.jpg",
+						"preview": "/store/thumbs/2016/0802/02002356st57.jpg",
+						"targetId": 1416,
+						"width": 720
+					}, {
+						"created": 1470068636000,
+						"height": 1280,
+						"id": 1767,
+						"origin": "/store/origin/2016/0802/020023568si4.jpg",
+						"preview": "/store/thumbs/2016/0802/02002356ru7w.jpg",
+						"targetId": 1416,
+						"width": 720
+					}
+				],
+				"keyList": [],
+				"lat": 39.9737,
+				"leaseCount": 0,
+				"lendMode": 0,
+				"lon": 116.347,
+				"name": "山地车",
+				"price": 10,
+				"priceMode": 2,
+				"quantity": 1,
+				"remain": 1,
+				"status": 0,
+				"tags": [
+					{
+						"created": "2016-05-10 11:36:08",
+						"grayIcon": "/store/thumbs/2016/0511/111126254hnv.png",
+						"icon": "/store/thumbs/2016/0511/111126259sf5.png",
+						"id": 1,
+						"name": "运动健身"
+					}, {
+						"created": "2016-05-10 11:36:39",
+						"grayIcon": "/store/thumbs/2016/0511/111125463b1y.png",
+						"icon": "/store/thumbs/2016/0511/11112546oqzr.png",
+						"id": 4,
+						"name": "户外远足"
+					}, {
+						"created": "2016-05-10 11:37:07",
+						"grayIcon": "/store/thumbs/2016/0511/11112452b6kw.png",
+						"icon": "/store/thumbs/2016/0511/111124510fu9.png",
+						"id": 7,
+						"name": "出行代步"
+					}
+				],
+				"user": {
+					"avatar": "/store/ava/954/0/0/0.jpg?t=1470067956000",
+					"avatar80": "/store/ava/954/0/0/80.jpg?t=1470067956000",
+					"birthday": "1990-01-01",
+					"borrowScale": 0,
+					"borrowScaleAVG": 5,
+					"borrowTimes": 0,
+					"city": "",
+					"cityId": 0,
+					"created": "2016-08-02 00:12:36",
+					"gender": 1,
+					"id": 954,
+					"invite": 0,
+					"lat": 0,
+					"lendScale": 0,
+					"lendScaleAVG": 5,
+					"lendTimes": 0,
+					"lon": 0,
+					"mobile": "13911963196",
+					"nickname": "莫非是墨菲",
+					"platform": 0,
+					"signature": "",
+					"status": 0,
+					"studentStatus": 0,
+					"updated": "2016-08-02 00:12:36",
+					"zhimaStatus": 0
+				},
+				"weight": 0
+			}, {
+				"active": 0,
+				"address": "圆明园东路水磨社区",
+				"approveStatus": 0,
+				"box": 1,
+				"commentCount": 0,
+				"created": "2016-09-20 02:18:04",
+				"deleted": 0,
+				"deposit": 550,
+				"description": "全新山地车国产 21速 碟刹刹车 26-24的都有\r\n送 水壶架 车锁 挡泥板 铃铛等\r\n北京海淀区清华，北大，人大，矿大，林大，北航，语言大学加5元送车\r\n氏豪工作室位置清华大学\r\n\r\n需提前3天约有谢谢\r\n",
+				"favor": false,
+				"favors": 1,
+				"id": 1813,
+				"images": [
+					{
+						"created": 1474309084000,
+						"height": 2448,
+						"id": 3090,
+						"origin": "/store/origin/2016/0920/20021803atco.jpg",
+						"preview": "/store/thumbs/2016/0920/20021803leih.jpg",
+						"targetId": 1813,
+						"width": 3264
+					}, {
+						"created": 1474309084000,
+						"height": 2448,
+						"id": 3091,
+						"origin": "/store/origin/2016/0920/20021804tpxg.jpg",
+						"preview": "/store/thumbs/2016/0920/20021804wnxu.jpg",
+						"targetId": 1813,
+						"width": 3264
+					}, {
+						"created": 1474309084000,
+						"height": 2448,
+						"id": 3092,
+						"origin": "/store/origin/2016/0920/2002180525mg.jpg",
+						"preview": "/store/thumbs/2016/0920/200218058g08.jpg",
+						"targetId": 1813,
+						"width": 3264
+					}, {
+						"created": 1474309084000,
+						"height": 2448,
+						"id": 3093,
+						"origin": "/store/origin/2016/0920/20021805a6iw.jpg",
+						"preview": "/store/thumbs/2016/0920/200218050dm2.jpg",
+						"targetId": 1813,
+						"width": 3264
+					}, {
+						"created": 1474309084000,
+						"height": 2448,
+						"id": 3094,
+						"origin": "/store/origin/2016/0920/20021806e3fn.jpg",
+						"preview": "/store/thumbs/2016/0920/200218069aqo.jpg",
+						"targetId": 1813,
+						"width": 3264
+					}, {
+						"created": 1474309084000,
+						"height": 2448,
+						"id": 3095,
+						"origin": "/store/origin/2016/0920/20021807ifrp.jpg",
+						"preview": "/store/thumbs/2016/0920/2002180755it.jpg",
+						"targetId": 1813,
+						"width": 3264
+					}
+				],
+				"keyList": [
+					"自行车"
+				],
+				"lat": 40.0086,
+				"leaseCount": 0,
+				"lendMode": 0,
+				"lon": 116.322,
+				"name": "氏豪（唐潮）单车工作室全新宝马山地自行车",
+				"price": 20,
+				"priceMode": 2,
+				"quantity": 5,
+				"remain": 5,
+				"searchKey": "自行车",
+				"status": 0,
+				"tags": [
+					{
+						"created": "2016-05-10 11:36:08",
+						"grayIcon": "/store/thumbs/2016/0511/111126254hnv.png",
+						"icon": "/store/thumbs/2016/0511/111126259sf5.png",
+						"id": 1,
+						"name": "运动健身"
+					}, {
+						"created": "2016-05-10 11:37:07",
+						"grayIcon": "/store/thumbs/2016/0511/11112452b6kw.png",
+						"icon": "/store/thumbs/2016/0511/111124510fu9.png",
+						"id": 7,
+						"name": "出行代步"
+					}
+				],
+				"user": {
+					"avatar": "/store/ava/988/0/0/0.jpg?t=1473785685000",
+					"avatar80": "/store/ava/988/0/0/80.jpg?t=1473785685000",
+					"birthday": "1990-01-01",
+					"borrowScale": 0,
+					"borrowScaleAVG": 5,
+					"borrowTimes": 0,
+					"city": "",
+					"cityId": 0,
+					"created": "2016-08-03 08:48:11",
+					"gender": 1,
+					"id": 988,
+					"invite": 0,
+					"lat": 0,
+					"lendScale": 0,
+					"lendScaleAVG": 5,
+					"lendTimes": 0,
+					"lon": 0,
+					"mobile": "13611832444",
+					"nickname": "氏豪（唐潮）单车工作室",
+					"platform": 0,
+					"signature": "",
+					"status": 0,
+					"studentStatus": 0,
+					"updated": "2016-09-14 00:54:45",
+					"zhimaStatus": 0
+				},
+				"weight": 0
+			}
+		],
+		"first": true,
+		"last": false,
+		"number": 0,
+		"numberOfElements": 6,
+		"size": 6,
+		"totalElements": 48,
+		"totalPages": 8
+	},
+	"message": "操作成功"
+}

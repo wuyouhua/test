@@ -1,0 +1,191 @@
+.big .mui-row.mui-fullscreen > [class*="mui-col-"] {
+  height: 100%;
+}
+.big .mui-col-xs-3,
+.big .mui-control-content {
+  overflow-y: auto;
+  height: 100%;
+}
+.big .mui-segmented-control .mui-control-item {
+  line-height: 50px;
+  width: 100%;
+}
+.big .mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
+  background-color: #fff;
+}
+.big .mui-bar-nav {
+  width: 100%;
+  height: 1.32rem!important;
+  line-height: 1.32rem;
+  background-color: e4e4e3;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.big .mui-bar-nav .input1 {
+  border-radius: 8px;
+  width: 6.02rem;
+  height: 0.76rem;
+  position: relative;
+  border: none;
+  font: 0.3rem/0.76rem "微软雅黑";
+  color: #606060;
+  background-color: #efefef;
+  text-align: center;
+}
+.big .mui-bar-nav .icon-llhomesearch {
+  position: absolute;
+  top: -0.08rem;
+  left: 0.46rem;
+  font-size: 0.46rem;
+}
+.big .mui-bar-nav ~ .mui-content {
+  height: auto !important;
+  position: absolute;
+  top: -0.12rem !important;
+}
+.big .mui-bar-nav ~ .mui-content .mui-col-xs-3 {
+  width: 1.80rem;
+  height: auto !important;
+  border-right: 1px solid #000000;
+}
+.big .mui-bar-nav ~ .mui-content .mui-col-xs-3 #segmentedControls {
+  height: 7.70rem;
+  overflow: auto;
+}
+.big .mui-bar-nav ~ .mui-content .mui-col-xs-3 #segmentedControls .ul1 {
+  position: relative;
+  top: 1.01rem;
+  height: 100%;
+}
+.big .mui-bar-nav ~ .mui-content .mui-col-xs-3 #segmentedControls .ul1 .active {
+  background-color: #f4f4f4;
+}
+.big .mui-bar-nav ~ .mui-content .mui-col-xs-3 #segmentedControls .ul1 .active:after {
+  content: '';
+  display: block;
+  width: 0.08rem;
+  height: 0.26rem;
+  background-color: #1cc7d0;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.22rem;
+  left: 0.36rem;
+}
+.big .mui-bar-nav ~ .mui-content .mui-col-xs-3 #segmentedControls .ul1 li {
+  position: relative;
+  width: 1.80rem;
+  height: 1.10rem;
+  background-color: #ffffff;
+}
+.big .mui-bar-nav ~ .mui-content .mui-col-xs-3 #segmentedControls .ul1 li .pbox {
+  font-size: 0.26rem;
+  width: 0.60rem;
+  height: 0.64rem;
+  margin: 0 auto;
+  line-height: 0.30rem;
+  margin-top: 0.30rem;
+  margin-left: 0.60rem;
+  float: left;
+}
+.big .mui-bar-nav ~ .mui-content #segmentedControlContents {
+  background-color: #FFFFFF;
+  width: 4.60rem;
+  float: right;
+  height: auto;
+}
+.big .mui-bar-nav ~ .mui-content #segmentedControlContents .mui-control-content {
+  width: 4.50rem;
+  height: 8.80rem;
+  display: block;
+}
+.big .mui-bar-nav ~ .mui-content #segmentedControlContents .mui-control-content .imgbox1 {
+  position: relative;
+  width: 4.64rem;
+  height: 2.64rem;
+  padding: 0.20rem 0.12rem;
+  margin-top: 1.00rem;
+}
+.big .mui-bar-nav ~ .mui-content #segmentedControlContents .mui-control-content .imgbox1 img {
+  width: 4.30rem;
+  height: 2.16rem;
+}
+.big .mui-bar-nav ~ .mui-content #segmentedControlContents .mui-control-content .ul1 {
+  position: relative;
+  float: left;
+  margin-left: 0.20rem;
+  border: 1px solid #000000;
+  border-left: 0;
+  border-right: 0 ;
+}
+.big .mui-bar-nav ~ .mui-content #segmentedControlContents .mui-control-content .ul1 li {
+  float: left;
+  width: 1.24rem;
+  height: 1.50rem;
+  text-align: center;
+  margin-top: 0.15rem;
+  margin-left: 0.10rem;
+  margin-bottom: 0.20rem;
+}
+.big .mui-bar-nav ~ .mui-content #segmentedControlContents .mui-control-content .ul1 li p {
+  height: 0.50rem;
+  color: #868686;
+  font-size: 0.22rem;
+}
+.big .mui-bar-nav ~ .mui-content #segmentedControlContents .mui-control-content .news11 {
+  position: relative;
+  margin-top: 3.74rem;
+  height: auto;
+}
+.big .mui-bar-nav ~ .mui-content #segmentedControlContents .mui-control-content .news11 h3 {
+  font-size: 0.28rem;
+  color: #585858;
+  margin-left: 0.26rem;
+  margin-top: 0.28rem;
+  float: left;
+}
+.big .mui-bar-nav ~ .mui-content #segmentedControlContents .mui-control-content .news11 .ul2 {
+  margin-top: -1.8rem;
+}
+.big .mui-bar-nav ~ .mui-content #segmentedControlContents .mui-control-content .news11 .ul2 li {
+  width: 4.60rem;
+  height: 2.02rem;
+  clear: both;
+}
+.big .mui-bar-nav ~ .mui-content #segmentedControlContents .mui-control-content .news11 .ul2 li img {
+  width: 1.80rem;
+  height: 1.40rem;
+  float: left;
+  margin-top: 0.22rem;
+  margin-left: 0.26rem;
+}
+.big .mui-bar-nav ~ .mui-content #segmentedControlContents .mui-control-content .news11 .ul2 li h6 {
+  width: 2rem;
+  font-size: rem;
+  color: #000000;
+  margin-top: 0.40rem;
+  margin-left: 0.28rem;
+  float: left;
+  font-size: 0.24rem;
+  white-space: nowrap;
+}
+.big .mui-bar-nav ~ .mui-content #segmentedControlContents .mui-control-content .news11 .ul2 li p {
+  width: 2rem;
+  height: 0.6rem;
+  float: left;
+  font: 0.2rem / 0.3rem "microsoft yahei";
+  margin-top: 0.10rem;
+  margin-left: 0.26rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.big .mui-bar-nav ~ .mui-content #segmentedControlContents .mui-control-content .news11 .ul2 li span {
+  font-size: 0.20rem;
+  margin-left: 0.28rem;
+  color: #2bcbd3;
+  float: left;
+}

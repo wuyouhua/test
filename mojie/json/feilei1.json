@@ -1,0 +1,285 @@
+{
+	"code": 0,
+	"data": [
+		{
+			"activityBanner": [
+				{
+					"concernId": 1,
+					"id": 1,
+					"thumbnail": "/store/banner/image/1.jpg",
+					"title": "c1"
+				}
+			],
+			"classification0": {
+				"id": 1,
+				"name": "摄影"
+			},
+			"classification1": [
+				{
+					"icon": "/store/classification/1-1.png",
+					"id": 1,
+					"masterId": 1,
+					"name": "单反"
+				}, {
+					"icon": "/store/classification/1-2.png",
+					"id": 2,
+					"masterId": 1,
+					"name": "数码相机"
+				}, {
+					"icon": "/store/classification/1-3.png",
+					"id": 3,
+					"masterId": 1,
+					"name": "运动相机"
+				}, {
+					"icon": "/store/classification/1-4.png",
+					"id": 4,
+					"masterId": 1,
+					"name": "摄像机"
+				}, {
+					"icon": "/store/classification/1-6.png",
+					"id": 5,
+					"masterId": 1,
+					"name": "其他摄影器材"
+				}
+			]
+		}, {
+			"activityBanner": [
+				{
+					"concernId": 2,
+					"id": 2,
+					"thumbnail": "/store/banner/image/2.jpg",
+					"title": "c2"
+				}
+			],
+			"classification0": {
+				"id": 2,
+				"name": "数码产品"
+			},
+			"classification1": [
+				{
+					"icon": "/store/classification/2-7.png",
+					"id": 7,
+					"masterId": 2,
+					"name": "电脑"
+				}, {
+					"icon": "/store/classification/2-8.png",
+					"id": 8,
+					"masterId": 2,
+					"name": "手机"
+				}, {
+					"icon": "/store/classification/2-9.png",
+					"id": 9,
+					"masterId": 2,
+					"name": "外设"
+				}
+			]
+		}, {
+			"activityBanner": [
+				{
+					"concernId": 3,
+					"id": 3,
+					"thumbnail": "/store/banner/image/3.jpg",
+					"title": "c3"
+				}
+			],
+			"classification0": {
+				"id": 3,
+				"name": "游戏影音"
+			},
+			"classification1": [
+				{
+					"icon": "/store/classification/3-10.png",
+					"id": 10,
+					"masterId": 3,
+					"name": "游戏机"
+				}, {
+					"icon": "/store/classification/3-11.png",
+					"id": 11,
+					"masterId": 3,
+					"name": "光盘碟片"
+				}, {
+					"icon": "/store/classification/3-12.png",
+					"id": 12,
+					"masterId": 3,
+					"name": "桌游棋牌"
+				}, {
+					"icon": "/store/classification/3-13.png",
+					"id": 13,
+					"masterId": 3,
+					"name": "音乐播放"
+				}, {
+					"icon": "/store/classification/3-14.png",
+					"id": 14,
+					"masterId": 3,
+					"name": "其他"
+				}
+			]
+		}, {
+			"activityBanner": [
+				{
+					"concernId": 4,
+					"id": 4,
+					"thumbnail": "/store/banner/image/4.jpg",
+					"title": "c4"
+				}
+			],
+			"classification0": {
+				"id": 4,
+				"name": "新奇酷品"
+			},
+			"classification1": [
+				{
+					"icon": "/store/classification/4-15.png",
+					"id": 15,
+					"masterId": 4,
+					"name": "无人机"
+				}, {
+					"icon": "/store/classification/4-16.png",
+					"id": 16,
+					"masterId": 4,
+					"name": "VR"
+				}, {
+					"icon": "/store/classification/4-19.png",
+					"id": 19,
+					"masterId": 4,
+					"name": "其他智能硬件"
+				}
+			]
+		}, {
+			"activityBanner": [
+				{
+					"concernId": 5,
+					"id": 5,
+					"thumbnail": "/store/banner/image/5.jpg",
+					"title": "c5"
+				}
+			],
+			"classification0": {
+				"id": 5,
+				"name": "出行工具"
+			},
+			"classification1": [
+				{
+					"icon": "/store/classification/5-20.png",
+					"id": 20,
+					"masterId": 5,
+					"name": "自行车"
+				}, {
+					"icon": "/store/classification/5-21.png",
+					"id": 21,
+					"masterId": 5,
+					"name": "摩托电动"
+				}, {
+					"icon": "/store/classification/5-22.png",
+					"id": 22,
+					"masterId": 5,
+					"name": "其他"
+				}
+			]
+		}, {
+			"activityBanner": [
+				{
+					"concernId": 6,
+					"id": 6,
+					"thumbnail": "/store/banner/image/6.jpg",
+					"title": "c6"
+				}
+			],
+			"classification0": {
+				"id": 6,
+				"name": "旅行户外"
+			},
+			"classification1": [
+				{
+					"icon": "/store/classification/6-23.png",
+					"id": 23,
+					"masterId": 6,
+					"name": "野营"
+				}, {
+					"icon": "/store/classification/6-24.png",
+					"id": 24,
+					"masterId": 6,
+					"name": "潜水"
+				}, {
+					"icon": "/store/classification/6-25.png",
+					"id": 25,
+					"masterId": 6,
+					"name": "其他"
+				}
+			]
+		}, {
+			"activityBanner": [
+				{
+					"concernId": 7,
+					"id": 7,
+					"thumbnail": "/store/banner/image/7.jpg",
+					"title": "c7"
+				}
+			],
+			"classification0": {
+				"id": 7,
+				"name": "服装"
+			},
+			"classification1": [
+				{
+					"icon": "/store/classification/7-26.png",
+					"id": 26,
+					"masterId": 7,
+					"name": "戏服"
+				}, {
+					"icon": "/store/classification/7-27.png",
+					"id": 27,
+					"masterId": 7,
+					"name": "正装"
+				}, {
+					"icon": "/store/classification/7-28.png",
+					"id": 28,
+					"masterId": 7,
+					"name": "cosplay"
+				}
+			]
+		}, {
+			"activityBanner": [
+				{
+					"concernId": 8,
+					"id": 8,
+					"thumbnail": "/store/banner/image/8.jpg",
+					"title": "c8"
+				}
+			],
+			"classification0": {
+				"id": 8,
+				"name": "其他"
+			},
+			"classification1": [
+				{
+					"icon": "/store/classification/8-29.png",
+					"id": 29,
+					"masterId": 8,
+					"name": "乐器"
+				}, {
+					"icon": "/store/classification/8-30.png",
+					"id": 30,
+					"masterId": 8,
+					"name": "书"
+				}, {
+					"icon": "/store/classification/8-31.png",
+					"id": 31,
+					"masterId": 8,
+					"name": "会员卡券"
+				}, {
+					"icon": "/store/classification/8-32.png",
+					"id": 32,
+					"masterId": 8,
+					"name": "运动器材"
+				}, {
+					"icon": "/store/classification/8-33.png",
+					"id": 33,
+					"masterId": 8,
+					"name": "玩具"
+				}
+			]
+		}
+	],
+	"message": "操作成功"
+}

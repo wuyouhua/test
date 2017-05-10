@@ -1,0 +1,67 @@
+<div class="home">
+	<header class="mui-bar mui-bar-nav">
+		<input class="input" value="更多物品物主等你来搜索">
+		<span class="iconfont icon-llhomesearch"></span>
+	</header>
+	<div class="mui-content">
+		<div id="slider" class="mui-slider">
+			<div id="sliderSegmentedControl" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+				<a class="mui-control-item" href="#item1mobile" ng-click="goPage('/home')">
+					专属
+				</a>
+				<a class="mui-control-item" href="#item2mobile" ng-click="goPage('/fujin')">
+					附近
+				</a>
+				<a class="mui-control-item" href="#item3mobile" ng-click="goPage('/qiujie')">
+					求借
+				</a>
+				<p>发布 +</p>
+			</div>
+			<div class="mui-slider-group">
+				<div id="item1mobile" class="mui-slider-item mui-control-content mui-active">
+					<div id="scroll1" class="mui-scroll-wrapper">
+						<div class="mui-scroll">
+							<ul class="mui-table-view">
+								<h3>精选</h3>
+								<div class="swiper-container">   
+							        <div class="swiper-wrapper">
+							            <div class="swiper-slide"><img class="img" src="../img/1.jpg"></div>
+							            <div class="swiper-slide"><img class="img" src="../img/2.jpg"></div>
+							            <div class="swiper-slide"><img class="img" src="../img/3.jpg" ></div>
+							            <div class="swiper-slide"><img class="img" src="../img/4.jpg"></div>
+							        </div>								        
+							    </div>
+							</ul>
+							<div class="bgc"></div>
+							<div class="hot">
+								<h3>热门<span class="right">查看更多<b></b></span></h3>
+								<div class="news">
+									<div class="left1">
+										<div class="img5"><img src="../img/5.jpg"></div>
+										
+										<div class="img6"><img src="../img/6.jpg"></div>
+									</div>
+									<div class="right2">
+										<div class="img7"><img src="../img/7.jpg"></div>
+										<div class="img8"><img src="../img/8.jpg"></div>
+									</div>
+								</div>
+							</div>
+							<div class="groom">
+								<h3>推荐</h3>
+								<ul>
+									<li ng-repeat="i in goodlist">
+										<img ng-src="{{i.images[0].origin}}">
+										<h4>{{i.name}}</h4>
+										<p>{{i.description}}</p>
+										<span>¥{{i.price}}/天</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
