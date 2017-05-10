@@ -1,0 +1,280 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,input { margin:0; padding:0; }
+fieldset, img{
+	margin:0;
+	padding: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+html,body{
+	background-color:rgb(245,245,246) ;
+}
+/*logo********************************************/
+.logo{
+	width:100%;
+	height:60px;
+	background-color:rgb(245,245,246);
+	margin:0 auto;
+}
+.logo .logo11{
+	width:369px;
+	height:36px;
+	margin:0 auto;
+	background: url(../imgs/base_z.png) no-repeat -850px -324px;
+	-margin-left:202px;
+	margin-top:30px;
+}
+.logo .logo11 span{
+	display: block;
+	float: right;
+	margin-left:23px;
+	margin-top:18px;
+	color:rgb(150,150,150);
+	font-weight:700;
+}
+/*main********************************************/
+.main{
+	width:950px;
+	height:650px;
+	margin:0 auto;
+	background:url(../imgs/bg.jpg) no-repeat -24px -89px;
+}
+.main .main1{
+	float: right;
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 60px;
+    margin-right: 150px;
+    
+}
+.main .main1 .main-heard{
+	margin-left: 90px;
+    width: 260px;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 10px;
+    
+} 
+.main .main1 .main-heard h2{
+	font-size: 16px;
+    font-weight:600;
+    float: left;
+}
+.main .main1 .main-heard h3{
+	float:right;
+	font-weight: 500;
+	font-size: 12px;
+	margin-top:3px;
+}
+.main .main1 .main-heard h3 u a{
+	text-decoration: none;
+	color:red;
+}
+.main .main1 .main-logo{
+	width: 260px;
+    padding-left: 90px;
+    height: auto;
+    overflow: hidden;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.main .main1 .main-logo p span{
+	color:rgb(255, 0, 0);
+	font-size:14px;
+}
+.main .main1 .main-container{
+	width:350px;
+	height:auto;
+}
+.main .main1 .main-container div{
+	clear: both;
+	margin-top:8px;
+	float:right;
+	line-height: 30px;
+}
+.main .main1 .main-container span{
+	width:75px;
+	height:30px;
+	font-size:14px;
+	display: block;
+	float:left;
+}
+.main .main1 .main-container input{
+	float:right;
+	width:258px;
+	height:24px;
+	margin-left:8px;
+}
+.main .main2{
+	width: 350px;
+    height: auto;
+}
+.main .main2 div{
+	clear: both;
+	margin-top:8px;
+	float:right;
+	line-height: 30px;
+}
+.main .main2 span{
+	width:75px;
+	height:30px;
+	font-size:14px;
+	display: block;
+	float:left;
+}
+.main .main2 input{
+	width:120px;
+	height:24px;
+	margin-left:8px;
+	text-align: center;
+	line-height:24px;
+}
+.main .main1 .main3{
+	width:262px;
+	height:35px;
+	background-color: rgb(219,39,37);
+	line-height: 35px;
+	text-align: center;
+	float:right;
+	margin-top:10px;
+}
+.main .main1 .main3 input{
+	width:260px;
+	height:33px;
+	background-color: rgb(219,39,37);
+	color:#fff;
+	font-size:14px;
+	border: none;
+}
+.main .main1 .main4{
+	float:right;
+	padding-bottom: 16px;
+    border-bottom:1px solid rgb(146,146,146);
+}
+.main .main1 .main4 p{
+	margin-top:9px;
+	font-size:14px;
+	float:left;
+	margin-left:84px;
+}
+.main .main1 .main4 p span{
+	text-decoration: underline;
+}
+.main .main-ewm{
+	width:240px;
+	height:100px;
+	float:left;
+	margin-top:20px;
+	margin-left:90px;
+}
+.main .main-ewm img{
+	float:left;
+}
+.main .main-ewm p{
+	width:126px;
+	height:56px;
+	font-size:12px;
+	float:left;
+	margin-top:18px;
+	margin-left:12px;
+}
+/*copy********************************************/
+.copy{
+	width:100%;
+	height:262px;
+	background-color:#F2F2F2;
+	text-align: center;
+	overflow: hidden;
+	margin-top:36px;
+}
+.copy ul{
+	width:999px;
+	height:66px;
+	margin:30px auto;
+	margin-bottom: 20px;
+}
+.copy ul li{
+	width:164px;
+	height:66px;
+	float: left;
+	line-height: 84px;
+	border-right:1px solid #777777;
+}
+.copy ul li a p{
+	color:#1D1D1B;
+	font-size:14px;
+}
+
+.copy ul li:nth-child(1){
+	background: url(../imgs/base_z.png) no-repeat -154px -150px;
+}
+.copy ul li:nth-child(1):hover{
+	background: url(../imgs/base_z.png) no-repeat -154px -268px;
+}
+.copy ul li:nth-child(2){
+	background: url(../imgs/base_z.png) no-repeat -547px -104px;
+}
+.copy ul li:nth-child(2):hover{
+	background: url(../imgs/base_z.png) no-repeat -547px 7px;
+}
+.copy ul li:nth-child(3){
+	background: url(../imgs/base_z.png) no-repeat -155px -385px;
+}
+.copy ul li:nth-child(3):hover{
+	background: url(../imgs/base_z.png) no-repeat -306px -232px;
+}
+.copy ul li:nth-child(4){
+	background: url(../imgs/base_z.png) no-repeat -422px 2px;
+}
+.copy ul li:nth-child(4):hover{
+	background: url(../imgs/base_z.png) no-repeat -422px -110px;
+}
+.copy ul li:nth-child(5){
+	background: url(../imgs/base_z.png) no-repeat -300px -350px;
+}
+.copy ul li:nth-child(5):hover{
+	background: url(../imgs/base_z.png) no-repeat -300px -463px;
+}
+.copy ul li:nth-child(6){
+	background: url(../imgs/base_z.png) no-repeat -304px -117px;
+}
+.copy ul li:nth-child(6):hover{
+	background: url(../imgs/base_z.png) no-repeat -304px  0;
+}
+.copy .copy1{
+	width:600px;
+	margin:0 auto;
+}
+.copy ol{
+	width:580px;
+	height:12px;
+	margin:0 auto;
+}
+.copy ol li {
+	float:left;
+	margin-right:28px;
+}
+.copy ol li a{
+	font-size:13px;
+	color:#000000;
+}
+.copy .copy2{
+	text-align: center;
+	margin:0 auto;
+	width:600px;
+	margin-top:25px;
+}
+.copy .copy2 span a{
+	color:#000000;
+	font-size:12px;
+}
+.copy .copy3{
+	margin-top:20px;
+}
+.copy .copy3 img {
+	margin-right:25px;
+

@@ -1,0 +1,125 @@
+html,
+body,
+div,
+img,
+input {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+.top {
+	height: 30px;
+	background-color: #F1F1F1;
+	text-align: center;
+}
+
+.container {
+	width: 990px;
+	margin-top: 50px;
+}
+
+.table  tr  th .select-all {
+	vertical-align: -2px;
+	margin-right: 10px;
+}
+
+.table  tr  td:nth-child(1){
+	width: 70px;
+}
+.table  tr  td.goods-name {
+	position: relative;
+	width: 300px;
+	padding-left: 80px;
+	cursor: pointer;
+}
+.table  tr  td.goods-name:hover {
+	color: #c33;
+}
+.table  tr  td.goods-name img {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.table  tr  td.goods-type {
+	width: 200px;
+}
+
+.table  tr  td.goods-price {
+	width: 80px;
+}
+.table  tr  td.goods-amount {
+	width: 150px;
+}
+
+.table  tr  td.option {
+	position: relative;
+	margin-top: 20px;
+	height: 30px;
+}
+.option .option-item {
+	position: absolute;
+	top: 10px;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+.option .option-item:hover {
+	border-color: #c33;
+}
+.option .option-decrease,
+.option .option-increase{
+	left: 0;
+	width: 30px;
+	line-height: 28px;
+	cursor: pointer;
+	text-decoration: none;
+}
+.option .option-input {
+	left: 30px;
+	height: 30px;
+	width: 50px;
+	outline: none;
+}
+.option .option-increase {
+	left: 80px;
+}
+
+.table  tr  td .delete:hover {
+	color: #c33;
+	text-decoration: none;
+}
+
+.other-option .left {
+	float: left;
+}
+.other-option .right {
+	float: right;
+}
+.other-option .item {
+	float: left;
+	line-height: 40px;
+	margin-right: 20px;
+}
+
+.other-option .select input{
+	vertical-align: -2px;;
+}
+
+.go-pay {
+	width: 160px;
+	margin-right: 0;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	background-color: #c33;
+	cursor: pointer;
+}
+
+.total-select,
+.total-money {
+	color: #c33;
+	font-size: 18px;
+	padding: 0 10px;
+}
