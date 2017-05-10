@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			ul,div,li,body,html,input{
+				margin:0;
+				padding:0;
+			}
+			ul{
+				list-style: none;
+			}
+			.goods{
+				width:500px;
+				height:500px;
+				margin:50px auto;
+				background-color:#999;
+				border:1px solid #000000;
+				padding-top:200px;
+				box-shadow: 0 6px 10px #F9F2F4; 		
+					}
+		/*	.good0 .good1,.good2,.good3{
+				width:268px;
+				height:36px;
+				margin:2px auto;
+				border: 1px solid #000000;
+			}*/
+			.goods ul{
+				width:268px;
+				height:34px;
+				margin:0px auto;
+				border: 1px solid #000000;
+			}
+			.goods ul li{
+				float:left;
+				width:36px;
+				height:36px;
+				text-align: center;
+				background-color: #C7DDEF;
+				line-height:36px;
+			}
+			.goods ul li:nth-child(4){
+				width:160px;
+				font-size:14px;
+				text-align: center;
+				height:36px ;
+				line-height: 36px;
+			}
+			.goods ul li:nth-child(2){
+				line-height:32px;
+			}
+			.goods ul li:nth-child(2) input{
+				width:36px;
+				height:36px;
+				border:none;
+				text-align: center;
+				line-height:24px ;
+			}
+			.goods .good0 ul li{
+				font-size: 16px;
+			}
+			.goods .good0 ul li:nth-child(2){
+				line-height:36px;
+			}
+			.all{
+				margin-left:20px;
+			}
+			.all .allprice{
+				width:36px;
+				height:36px;
+				color:red;
+				text-align: center;
+				line-height: 36px;
+			}
+			.hearder{
+				width:268px;
+				height:34px;
+				margin:1px auto;
+				border: 1px solid #000000;
+				background-color: #C7DDEF;
+				text-align: center;
+				line-height: 34px;
+				font-size:24px;
+				font-weight: 600;
+				color:#c33;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="goods">
+			<div class="hearder">购物车</div>
+			<div class="good0">
+				<ul>
+					<li>减少</li>
+					<li>数量</li>
+					<li>增加</li>
+					<li>单价</li>
+				</ul>
+			</div>
+			<div class="good1">
+				<ul>
+					<li>-</li>
+					<li><input value="1" type="text"/></li>
+					<li>+</li>
+					<li>花生单价：2元</li>
+				</ul>
+			</div>
+			<div class="good2">
+				<ul>
+					<li>-</li>
+					<li><input value="1" type="text"/></li>
+					<li>+</li>
+					<li>牛奶单价：3元</li>
+				</ul>
+			</div>
+			<div class="good3">
+				<ul>
+					<li>-</li>
+					<li><input value="1" type="text"/></li>
+					<li>+</li>
+					<li>啤酒单价：10元</li>
+				</ul>
+			</div>
+			<div class="all">
+				总价:<input class="allprice" type="text" />
+			</div>
+		</div>
+	
+	</body>
+	<script src="jquery-1.11.3.js"></script>
+	<script>
+	$(function(){
+		var busycar = {
+			lis1 : $('.goods .good1 ul li'),
+			lis2 : $('.goods .good2 ul li'),
+			lis3 : $('.goods .good3 ul li'),
+			allprice : $('.all .allprice'),
+			//总开关
+			init:function(){
+				
+				this.increase();
+				this.decrease();
+				this.input();
+				this.summoney();
+			},
+			//增加
+			increase:function(){
+				var that = this;
+				this.lis1.eq(2).click(function(){
+					var stock = 100,
+					    amount = parseInt($(this).prev().find('input').val());
+					    if(amount >= stock){
+							return;
+						}
+						amount++;
+						$(this).prev().find('input').val(amount);
+						that.summoney();
+				});
+				this.lis2.eq(2).click(function(){
+					var stock = 200,
+					    amount = parseInt($(this).prev().find('input').val());
+					    if(amount >= stock){
+							return;
+						}
+						amount++;
+						$(this).prev().find('input').val(amount);
+						that.summoney();
+				});
+				this.lis3.eq(2).click(function(){
+					var stock = 300,
+					    amount = parseInt($(this).prev().find('input').val());
+					    if(amount >= stock){
+							return;
+						}
+						amount++;
+						$(this).prev().find('input').val(amount);
+						that.summoney();
+				});
+			},
+			//减少
+			decrease:function(){
+				var that = this;
+				this.lis1.eq(0).click(function(){
+					var amount = parseInt($(this).next().find('input').val());
+					amount = amount < 1 ? 1 : amount;
+					amount--;
+					$(this).next().find('input').val(amount);
+					that.summoney();
+				});
+				this.lis2.eq(0).click(function(){
+					var amount = parseInt($(this).next().find('input').val());
+					amount = amount < 1 ? 1 : amount;
+					amount--;
+					$(this).next().find('input').val(amount);
+					that.summoney();
+				});
+				this.lis3.eq(0).click(function(){
+					var amount = parseInt($(this).next().find('input').val());
+					amount = amount < 1 ? 1 : amount;
+					amount--;
+					$(this).next().find('input').val(amount);
+					that.summoney();
+				});
+			},
+			//直接输入数量  实时监控
+			input:function(){
+				var that = this;
+				this.lis1.eq(1).find('input').on('input',function(){
+					var amount = $(this).val(),
+						stock = 100;
+					amount = amount < 1 ? 1 : amount;
+					amount = amount > 100 ? 100 : amount;
+					$(this).val(amount);
+				});
+				this.lis2.eq(1).find('input').on('input',function(){
+					var amount = $(this).val(),
+						stock = 200;
+					amount = amount < 1 ? 1 : amount;
+					amount = amount > 100 ? 100 : amount;
+					$(this).val(amount);
+				});
+				this.lis3.eq(1).find('input').on('input',function(){
+					var amount = $(this).val(),
+						stock = 300;
+					amount = amount < 1 ? 1 : amount;
+					amount = amount > 100 ? 100 : amount;
+					$(this).val(amount);
+				});
+			},
+			//计算总价
+			summoney:function(){
+				var that = this;
+				
+					var sum = 2*that.lis1.eq(1).find('input').val() +
+					3*that.lis2.eq(1).find('input').val() +
+					10*that.lis3.eq(1).find('input').val();
+					that.allprice.val(sum);
+				
+			}
+		}
+		busycar.init();
+	});
+	</script>
+</html>

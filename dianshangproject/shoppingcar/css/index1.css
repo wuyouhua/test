@@ -1,0 +1,30 @@
+
+
+h1.title {
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	font-family: "Microsoft Yahei";
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 50px;
+	background-color: #6f5499;
+}
+
+.container {
+	width: 1000px;
+	margin: 20px auto 0;
+}
+
+.glyphicon.glyphicon-ok {
+	color: green;
+}
+
+.glyphicon.glyphicon-remove {
+	color: #c33;
+}
+
+.error {
+	border-color: #c33;
+}
